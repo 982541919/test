@@ -22,4 +22,11 @@ public class UserController {
 	}
 	//
 	//
+	@RequestMapping("getMap2")
+	public String getMap2() {
+		// 6 
+		return restTemplate.getForObject("http://heima-provider-1/getMap", String.class);
+	}
+	//
+	//
 }
