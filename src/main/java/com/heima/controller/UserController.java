@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class UserController {
 	@Autowired
 	RestTemplate restTemplate;
-	//111
+	//333
 	@RequestMapping("getString")
 	public String getString() { 
 		return restTemplate.getForObject("http://heima-provider-1/getString", String.class);
