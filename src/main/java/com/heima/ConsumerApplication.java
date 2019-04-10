@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableEurekaClient
 public class ConsumerApplication {
 	
-	@Bean // 该注解类似于spring中的 <bean>标签，会在启动的时候执行改方法  
+	@Bean // 该注解类似于spring中的 <bean>标签，会在启动的时候执行改方法  3
 	@LoadBalanced // 加上该注解使用rebbon，让RestTemplate具备rebbon的负载均衡能力
 	public RestTemplate restTemplate(){
 		return new RestTemplate();
