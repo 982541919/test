@@ -1,0 +1,6 @@
+server:
+  port: 8081
+  
+spring:
+  application:
+    name: heima-consumer-1 #设置注册到Eureka服务的名称
