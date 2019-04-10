@@ -14,11 +14,11 @@ public class UserController {
 	public String getString() { 
 		return restTemplate.getForObject("http://heima-provider-1/getString", String.class);
 	}	
-	//4
+	//5
 	@RequestMapping("getMap")
 	public String getMap() {
 		// 6 
 		return restTemplate.getForObject("http://heima-provider-1/getMap", String.class);
 	}
-
+	//
 }
