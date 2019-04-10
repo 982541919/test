@@ -19,6 +19,7 @@ public class UserController {
 	public String getMap() {
 		return restTemplate.getForObject("http://heima-provider-1/getMap", String.class);
 	}
+	//5
 	@RequestMapping("getMap2")
 	public String getMap2() {
 		return restTemplate.getForObject("http://heima-provider-1/getMap", String.class);
