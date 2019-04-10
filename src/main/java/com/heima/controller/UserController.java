@@ -21,4 +21,5 @@ public class UserController {
 		return restTemplate.getForObject("http://heima-provider-1/getMap", String.class);
 	}
 	//
+	//
 }
