@@ -18,17 +18,4 @@ public class UserController {
 	public String getMap() {
 		return restTemplate.getForObject("http://heima-provider-1/getMap", String.class);
 	}
-	//5
-	@RequestMapping("getMap2")
-	public String getMap2() {
-		return restTemplate.getForObject("http://heima-provider-1/getMap", String.class);
-	}
-	@RequestMapping("getMap3")
-	public String getMap3() {
-		return restTemplate.getForObject("http://heima-provider-1/getMap", String.class);
-	}
-	@RequestMapping("getMap4")
-	public String getMap4() {
-		return restTemplate.getForObject("http://heima-provider-1/getMap", String.class);
-	}
 }
