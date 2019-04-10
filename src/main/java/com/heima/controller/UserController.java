@@ -13,7 +13,7 @@ public class UserController {
 	@RequestMapping("getString")
 	public String getString() { 
 		return restTemplate.getForObject("http://heima-provider-1/getString", String.class);
-	}
+	}	
 	//2 
 	@RequestMapping("getMap")
 	public String getMap() {
